@@ -1,0 +1,50 @@
+body{
+    background-color: rgba(216, 226, 216, 0.333);
+}
+img{
+    width: 40%;
+    height: auto; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+input[type=text] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    width: 250px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  input[type=text]:focus, input[type=text]:hover {
+    width: 20%;
+  }
+  .boton {
+    border: none;
+    border-radius:15px ;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #555555;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+  }
+
+  

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Vincular css-->
+  <link rel="stylesheet" href="css/index.css">
+  <title>Apis Javascript 2022 Pablo Bejar</title>
+</head>
+<body>
+    <!-- Añadir el logo de imagen-->
+  <img  src="img/Wikipedia-Emblem.png">
+    <!-- Contenido para buscar la imagen y al dar a submit cargar el contenido a otra pagina html -->
+    <form action="leer.html" method="GET">
+       <!-- Texts view para añadir el contenido y el idioma que queramos buscar-->
+      <input type="text" class="buscador-input" placeholder="Buscar aqui en wikipedia"><br>
+      <input type="text" class="idioma-input" placeholder="Buscar aqui el idioma"><br>
+      <input onclick="BuscarContenido()" type="button" class="boton"value="Buscar" />
+  </form>
+   <!-- Vincular js-->
+  <script src="js/script.js"></script>+
+</body>
+</html>
